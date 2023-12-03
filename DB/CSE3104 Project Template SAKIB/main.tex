@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+\linespread{1.6}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{indentfirst}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{soul}
+
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\textwidth}{1in}
+
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+%-----------------------------------------------------------
+
+\begin{document}
+\input{sections/01-titlepage}
+\input{sections/02-abstract}
+
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables %remove this line if you do not have any tables
+\clearpage
+
+\pagenumbering{arabic}
+
+\input{sections/03-Purpose of the Project}
+\input{sections/04-Project Potential Clients}
+\input{sections/05-Project Estimated Cost}
+\input{sections/06-Project Stakeholder}
+\input{sections/07-Project Details}
+\input{sections/08-Entiry Relationship Diagram}
+\input{sections/09-Project Schema Design}
+\input{sections/10-Searching Design}
+\input{sections/11-Conclusion and Future Work}
+
+\clearpage
+
+\end{document}

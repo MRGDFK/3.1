@@ -1,0 +1,10 @@
+1) select *FROM customer where Country like '____y'
+2) select *from customer WHERE Country not like '%a%'and Country not like '%e%'and Country not like '%i%'and Country not like '%o%'and Country not like '%u%'
+3) select * from customer where CustomerName like '% % %' and CustomerName like '% % d%';
+4) SELECT *from customer where PostalCode like '______' and PostalCode not like '%-____';
+5) select * from customer where Country like '%' + City + '%'
+6) select CustomerID,CustomerName from customer where  (CustomerName like '%a%a%a%' and CustomerName not like '%a%a%     a%a%') and CustomerName not like '%t%t%';
+7) SELECT *FROM customerWHERE CustomerName LIKE '%a%' AND CustomerName NOT LIKE '%a%a%';
+8) select * from customer where PostalCode  IS NULL;
+9) SELECT  CustomerName ,ContactName from customer where CustomerID BETWEEN 8 and 17
+10) SELECT CustomerName  ,ContactName from customer where (CustomerName like 'a%' or CustomerName like 'n%') and (ContactName like 'a%' or ContactName like 'n%')
