@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    max-width: 400px; 
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    margin-right: 50px; 
+    max-width: 100px;
+}
+
+.icon img{
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon img:hover {
+    transform: scale(1.1); 
+}
+
+.form-fields {
+    color: white;
+    stroke: #ddd;
+}
+
+label {
+    display: block;
+    color: white;
+    margin-bottom: 5px; 
+    margin-left: 5px;
+}
+
+input[type="number"] {
+    display: block;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+
+
+form {
+    background-color: #000000;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #5cc9ff;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #000000;
+
+    margin-left: 50px;
+    
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+tr:hover {
+    background-color: #E0F4FF;
+}
+
+td.no-answer:hover {
+    background-color: #ffcccc; 
+}
+
+td.yes-answer:hover {
+    background-color: #ccffcc; 
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 20px;
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+button{
+    display: block;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 40px;
+    background: #A0E9FF;
+    transition: 0.5s;
+}
+button:hover{
+    background: #5cc9ff;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px rgba(92, 201, 255, 0.7), 0 0 20px rgba(92, 201, 255, 0.5); /* Start glow */
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(3, 149, 247, 0.9), 0 0 30px rgba(92, 176, 255, 0.7) /* End glow */
+    }
+}

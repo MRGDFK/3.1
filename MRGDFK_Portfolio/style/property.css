@@ -1,0 +1,16 @@
+.section,
+.property {
+    background-color: #040404;
+}
+
+.kara{
+    padding: 100px, 100px;
+    border-radius: 20px;
+}
+
+.carousel-item img {
+    max-width: 50%;
+    max-height: 450px; 
+    margin: auto; 
+    border-radius: 16px;
+  }

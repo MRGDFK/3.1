@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MRGDFK</title>
+    <!--  favicon  -->
+    <link rel="shortcut icon" href="./assets/mrgdfk.png" type="image/svg+xml">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- google icon link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0" />
+
+    <!-- custom css color -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel = "stylesheet" href="style/property.css">
+
+    <!-- custom js link -->
+    <script src="./js/script.js" defer> </script>
+
+
+    <!-- preload image -->
+
+</head>
+
+<body>
+    <!-- #header -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="./assets/mrgdfk.png" width="70" height="15">
+            </a>
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="index.html" class="navbar-link label-medium"> Home </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html" class="navbar-link label-medium"> Silos </a>
+                    </li>
+
+                    <li>
+                        <a href="resume.html" class="navbar-link label-medium"> Resume </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html" class="navbar-link label-medium"> About </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <button class="nav-toggle-btn icon-btn" aria-label="toggle navbar" data-nav-toggler>
+                <span class="material-symbols-rounded open" aria-hidden="true">menu</span>
+
+                <span class="material-symbols-rounded close" aria hidden="true">close </span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section class="section property" aria-labelledby="property-label">
+                <div class="container">
+                    <br>
+                    <h2 class="section-title headline-small" style="color: rgb(245, 245, 245);">Software Showcase</h2>
+                        <div class="property-list">
+                        <div class="card">
+                            <div class="card-banner">
+                                <figure class="img-holder" style="--width: 585; --height: 390;">
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="">
+                                        <img  src="./assets/project-1.png" width="585" height="390"class="img-cover">
+                                    </a>
+                                   
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-banner">
+                                <figure class="img-holder" style="--width: 585; --height: 390;">
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="">
+                                        <img  src="./assets/project-2.png" width="585" height="390"class="img-cover">
+                                    </a>
+                                   
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-banner">
+                                <figure class="img-holder" style="--width: 585; --height: 390;">
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="">
+                                        <img  src="./assets/project-3.png" width="585" height="390"class="img-cover">
+                                    </a>
+                                   
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-banner">
+                                <figure class="img-holder" style="--width: 585; --height: 390;">
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="">
+                                        <img  src="./assets/project-4.png" width="585" height="390"class="img-cover">
+                                    </a>
+                                   
+                                </figure>
+                            </div>
+                        </div>
+
+                        
+                        </div>
+                        <br>
+                        <h2 class="section-title headline-small" style="color: rgb(245, 245, 245);">Photography Showcase</h2>
+                        <div class="kara">
+                            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="./assets/1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./assets/2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./assets/3.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./assets/4.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./assets/5.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        
+                        </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+
+<footer class="footer">
+    <div class="footer-content">
+        <img src="./assets/mrgdfk_round.png" width="100" height="100" alt="MRGDFK Logo">
+        
+        <div class="follow-section">
+            <p class="headline-small">Follow</p>
+            <ul class="social-list">
+                <li>
+                    <a href="#" class="body-medium footer-link">
+                        <img src="./assets/insta.svg" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="body-medium footer-link">
+                        <img src="./assets/facebook.svg" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="body-medium footer-link">
+                        <img src="./assets/twitter.svg" alt="Twitter">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <p class="copyright body-medium">
+                Copyright 2024 MRGDFK
+            </p>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
